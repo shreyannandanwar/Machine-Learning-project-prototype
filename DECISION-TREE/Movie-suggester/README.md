@@ -80,7 +80,7 @@ It predicts personalized movie recommendations based on a few movie ratings you 
 
 | Step | Screenshot |
 | :--- | :--------- |
-| Rate Movies | ![Image](https://github.com/user-attachments/assets/e19c0d1f-d177-4c25-8b06-58a5deb6325a) |
+| Rate Movies | ![Image](https://github.com/user-attachments/assets/3c3c676f-a624-4b3f-a66b-407f5b3ae841) |
 | Top Recommendations | ![Image](https://github.com/user-attachments/assets/53fcb2eb-6f12-4b6e-9a00-d1aa0078f1ef) |
 | Decision Tree Visualization | ![Image](https://github.com/user-attachments/assets/e19c0d1f-d177-4c25-8b06-58a5deb6325a) |
 
