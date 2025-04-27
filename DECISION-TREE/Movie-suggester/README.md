@@ -80,9 +80,9 @@ It predicts personalized movie recommendations based on a few movie ratings you 
 
 | Step | Screenshot |
 | :--- | :--------- |
-| Rate Movies | ![Rate Movies](assets/rate_movies.png) |
-| Top Recommendations | ![Recommendations](assets/recommendations.png) |
-| Decision Tree Visualization | ![Decision Tree](assets/decision_tree.png) |
+| Rate Movies | ![Image](https://github.com/user-attachments/assets/e19c0d1f-d177-4c25-8b06-58a5deb6325a) |
+| Top Recommendations | ![Image](https://github.com/user-attachments/assets/53fcb2eb-6f12-4b6e-9a00-d1aa0078f1ef) |
+| Decision Tree Visualization | ![Image](https://github.com/user-attachments/assets/e19c0d1f-d177-4c25-8b06-58a5deb6325a) |
 
 (*Note: You can add screenshots after running the app!*)
 
