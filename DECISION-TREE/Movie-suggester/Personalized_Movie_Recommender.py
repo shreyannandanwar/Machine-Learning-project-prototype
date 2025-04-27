@@ -48,8 +48,6 @@ def train_model(user_ratings, movie_matrix, sample_movies):
 
 
 
-st.markdown("---")
-st.markdown("Made with ❤️ by [Shreyan Nandanwar](https://github.com/shreyannandanwar)")
 st.set_page_config(page_title="🎬 Movie Recommender")
 
 st.title("🎬 Personalized Movie Recommender")
@@ -79,4 +77,6 @@ if st.button("Get Recommendations"):
         plt.figure(figsize=(15, 10))
         plot_tree(model.estimators_[0], feature_names=feature_names, filled=True, rounded=True)
         st.pyplot(plt.gcf())
-        
+
+st.markdown("---")
+st.markdown("Made with ❤️ by [Shreyan Nandanwar](https://github.com/shreyannandanwar)")
