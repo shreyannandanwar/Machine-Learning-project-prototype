@@ -41,7 +41,8 @@ It predicts personalized movie recommendations based on a few movie ratings you 
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/shreyannandanwar/your-repo-name.git
+   git clone https://github.com/shreyannandanwar/Machine-Learning-project-prototype.git
+   cd DECISION-TREE
    cd Movie-suggester
    ```
 
