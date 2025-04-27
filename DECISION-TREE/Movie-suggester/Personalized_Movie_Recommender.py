@@ -5,13 +5,20 @@ import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeRegressor, plot_tree
 from sklearn.multioutput import MultiOutputRegressor
 import plotly.express as px
+import os
 
 
 @st.cache_data
 def prepare_data(n_movies=1000):
-    ratings = pd.read_csv('ml-latest-small/ratings.csv')
-    movies = pd.read_csv('ml-latest-small/movies.csv')
+    # Get the absolute path to the directory containing the script
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    ratings_path = os.path.join(base_dir, 'ml-latest-small', 'ratings.csv')
+    movies_path = os.path.join(base_dir, 'ml-latest-small', 'movies.csv')
 
+    # Read the CSV files
+    ratings = pd.read_csv(ratings_path)
+    movies = pd.read_csv(movies_path)
+    
     # Merge datasets
     df = pd.merge(ratings, movies, on='movieId')
 
